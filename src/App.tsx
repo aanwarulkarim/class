@@ -1,5 +1,14 @@
+import { Footer } from "./component/layout/footer";
+import { FirstTest } from "./features/cart/CartList";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <FirstTest>
+        <Footer></Footer>
+      </FirstTest>
+    </>
+  );
 }
 
 export default App;
